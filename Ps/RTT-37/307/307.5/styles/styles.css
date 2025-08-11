@@ -1,0 +1,50 @@
+body, html{
+    box-sizing: border-box;
+    margin: 0;  
+    height: 100%;   
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+}
+
+#test{
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+    transition-property: all;
+    transition-duration: 2s;
+    border-radius: 50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    transition-timing-function: ease-in-out;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    
+}
+
+#test:hover {
+    background-color: darkgreen;
+    transform: rotate(365deg);
+    transform: translateX(150px)rotate(365deg);
+
+}
+
+@media screen and (orientation: portrait) {
+    body{
+        background-color: orange;
+    }
+
+}
+
+nav>ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media screen and (orientation: landscape) {
+    body{
+        background-color: pink;
+    }
+
+
+}

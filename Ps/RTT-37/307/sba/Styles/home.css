@@ -1,0 +1,66 @@
+body{
+  background-color:#e5e5e5 ;
+}
+
+h2, h3, h4{
+  text-align:center ;
+  
+}
+#t1 {
+  width: 100%;
+  border-collapse:collapse ;
+  margin: 20px;
+}
+
+th, td{
+  border:1px, solid, black ;
+}
+
+#t2{
+  width: 100%;
+  border-collapse:collapse ;
+  margin: 20px;
+}
+
+.mid{
+  text-align: center;
+  border: 1px, solid, black;
+  border-radius: 20px;
+
+
+}
+button{
+  cursor: pointer;
+}
+#submit{
+  cursor: pointer;
+  width: 100%;
+  height: 50px;
+  background-color: brown;
+  color: white;
+  border: none;
+  border-radius: 19px;
+}
+
+#Receipt{
+  cursor:pointer ;
+  
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0);}
+  50% { transform: translateY(-20px);}
+}
+
+.gif img {
+  animation: fadeIn 2s ease-in;
+}
+
+h2 {
+  animation: bounce 1s infinite alternate;
+}
+

@@ -1,0 +1,36 @@
+body{
+  background-color:#e5e5e5 ;
+}
+
+
+
+th, td{
+  border:1px, solid, black ;
+}
+
+.r1{
+  width: 100%;
+  border-collapse: collapse ;
+  margin: 20px;
+
+}
+
+.row2{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+h1{
+  text-align: center;
+}
+
+#t2, #t1{
+ border-collapse: collapse ;
+  margin: 20px;
+}
+
+.check {
+  text-align: center;
+}
+

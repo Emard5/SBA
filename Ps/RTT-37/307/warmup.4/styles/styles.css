@@ -1,0 +1,48 @@
+body, html {
+    margin: 0;
+    height: 100%;
+    box-sizing:border-box ;
+
+}
+
+
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0.5em 1em ;
+    background-color: slategrey;
+    margin:0 ;
+    
+
+}
+
+#btns {
+    margin-left: auto;
+    margin-right: 1.5em;
+}
+
+#imgContainer {
+    height: 50%;
+    border: 3px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cardContainer{
+    height:40% ;
+    border: 3px solid black;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.card {
+    border: 4px solid blue;
+    display: flex;
+    border-radius: 30px;
+    text-align: center;
+    
+    
+}
